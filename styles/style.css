@@ -14,6 +14,101 @@ body {
   --black: #000;
 }
 
+
+
+/* nav section starts here */
+
+header {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px 60px;
+  color: var(--black);
+  overflow: hidden;
+  background: var(--background);
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0px 3px 5px var(--black);
+}
+
+.nav-container {
+  display: inline-flex;
+  width: auto;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0;
+  gap: 32px;
+}
+
+.logo {
+  width: 12%;
+  height: 10%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-container ul {
+  display: inline-flex;
+  gap: 30px;
+  justify-content: space-between;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--text2);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: var(--cta);
+}
+
+nav button {
+  display: flex; 
+  width: auto;
+  background: var(--cta);
+  font-size: 18px;
+  padding: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hero section starts here */
 
 .hero-section {
@@ -27,6 +122,23 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
+
+/* @keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.content1 h1 {
+  animation: slideIn 1s ease-in-out forwards;
+} */
 
 .container1 {
   display: block;
@@ -72,6 +184,10 @@ body {
   line-height: 1.5;
 }
 
+/* .para1 {
+  animation: slideIn 1s ease-in-out forwards;
+} */
+
 .content1 button {
   margin-left: 60px;
   padding: 15px 25px;
@@ -84,6 +200,10 @@ body {
   box-shadow: 5px 5px 5px var(--black);
   cursor: pointer;
 }
+
+/* .content1 button {
+  animation: slideIn 1s ease-in-out forwards;
+} */
 
 .content1 button:hover {
   color: var(--cta);
