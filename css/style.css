@@ -33,7 +33,7 @@
       display: block;
       width: 100%;
       height: auto;
-      padding: 20px 60px;
+      padding: 10px 60px;
       color: var(--black);
       overflow: hidden;
       background: var(--background);
@@ -911,7 +911,7 @@
       display: block;
       width: 100%;
       height: auto;
-      padding: 15px 0px;
+      padding: 5px 0px;
       color: var(--black);
       overflow: hidden;
       background: var(--background);
@@ -961,8 +961,8 @@
       display: flex;
       width: auto;
       background: var(--cta);
-      font-size: 18px;
-      padding: 18px;
+      font-size: 17px;
+      padding: 15px;
       border-radius: 50px;
       cursor: pointer;
       margin: 0
@@ -1781,7 +1781,7 @@
       display: block;
       width: 100%;
       height: auto;
-      padding: 15px 10px;
+      padding: 5px 10px;
       color: var(--black);
       overflow: visible;
       background: var(--background);
@@ -2693,7 +2693,7 @@
       display: block;
       width: 100%;
       height: auto;
-      padding: 15px 0px;
+      padding: 5px 0px;
       color: var(--black);
       overflow: visible;
       background: var(--background);
