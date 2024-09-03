@@ -528,6 +528,41 @@
     #float {
       transform: scale(1.1);
     }
+
+    .course-btn {
+      background: var(--background);
+      color: var(--cta);
+      padding: 12px 0;
+      border: 1px solid var(--black);
+      border-radius: 50px;
+      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14%;
+      gap: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      box-shadow: 3px 3px 5px var(--black);
+      transition: background-color 0.7s ease;
+    }
+
+    .course-btn svg {
+      width: 15%;
+      color: var(--cta);
+    }
+
+    .course-btn:hover {
+      background: var(--black);
+      transition: background-color 0.7sec ease;
+    }
+
+    .course-btn:hover svg {
+      background: var(--black);
+      color: var(--cta);
+      margin-left: 10px;
+      transition: 0.5s ease;
+    }
   
     /* section 6 starts here */
   
@@ -1382,6 +1417,41 @@
   
     #float {
       transform: scale(1.1);
+    }
+
+    .course-btn {
+      background: var(--background);
+      color: var(--cta);
+      padding: 12px 0;
+      border: 1px solid var(--black);
+      border-radius: 50px;
+      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18%;
+      gap: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      box-shadow: 3px 3px 5px var(--black);
+      transition: background-color 0.7s ease;
+    }
+
+    .course-btn svg {
+      width: 15%;
+      color: var(--cta);
+    }
+
+    .course-btn:hover {
+      background: var(--black);
+      transition: background-color 0.7sec ease;
+    }
+
+    .course-btn:hover svg {
+      background: var(--black);
+      color: var(--cta);
+      margin-left: 10px;
+      transition: 0.5s ease;
     }
   
     /* section 6 starts here */
@@ -2282,6 +2352,41 @@
       transform: scale(1.1);
       box-shadow: -2px -2px 5px var(--black);
       transition: 0.7s ease;
+    }
+
+    .course-btn {
+      background: var(--background);
+      color: var(--cta);
+      padding: 12px 0;
+      border: 1px solid var(--black);
+      border-radius: 50px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22%;
+      gap: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      box-shadow: 3px 3px 5px var(--black);
+      transition: background-color 0.7s ease;
+    }
+
+    .course-btn svg {
+      width: 15%;
+      color: var(--cta);
+    }
+
+    .course-btn:hover {
+      background: var(--black);
+      transition: background-color 0.7sec ease;
+    }
+
+    .course-btn:hover svg {
+      background: var(--black);
+      color: var(--cta);
+      margin-left: 10px;
+      transition: 0.5s ease;
     }
   
     /* #float {
@@ -3199,6 +3304,41 @@
       transform: scale(1.1);
       box-shadow: -2px -2px 5px var(--black);
       transition: 0.7s ease;
+    }
+
+    .course-btn {
+      background: var(--background);
+      color: var(--cta);
+      padding: 10px 0;
+      border: 1px solid var(--black);
+      border-radius: 50px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42%;
+      gap: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      box-shadow: 3px 3px 5px var(--black);
+      transition: background-color 0.7s ease;
+    }
+
+    .course-btn svg {
+      width: 18%;
+      color: var(--cta);
+    }
+
+    .course-btn:hover {
+      background: var(--black);
+      transition: background-color 0.7sec ease;
+    }
+
+    .course-btn:hover svg {
+      background: var(--black);
+      color: var(--cta);
+      margin-left: 10px;
+      transition: 0.5s ease;
     }
   
     /* #float {
