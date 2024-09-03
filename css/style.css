@@ -2796,14 +2796,14 @@
       width: 100%;
       border-top-right-radius: 1000px;
       background: var(--cta);
-      margin-top: 13%;
+      margin-top: 4%;
     }
   
     .content1 {
       background: var(--background);
       width: 95%;
       color: var(--text2);
-      padding: 10px, 20px;
+      padding: 1px, 20px;
       border-top-right-radius: 1000px;
       padding-bottom: 40px;
     }
@@ -2812,10 +2812,10 @@
       font-size: 26px;
       line-height: 1.2;
       padding-left: 20px;
-      padding-top: 80px;
+      margin-top: 8%;
       margin-right: 25%;
       margin-bottom: 0px;
-      width: 65%
+      width: 60%
     }
   
     .span1 {
@@ -3563,7 +3563,7 @@
     .copyright a {
       text-decoration: none;
       color: var(--text2);
-      margin-top: 15px;
+      margin-top: 13px;
       font-size: 10px;
     }
 }
