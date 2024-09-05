@@ -202,6 +202,7 @@ nav button {
 
 .container2 h2 {
   font-size: 32px;
+  line-height: 1.1;
   padding: 0 160px;
   word-break: normal;
 }
@@ -303,4 +304,203 @@ nav button {
   color: var(--cta);
   margin-left: 5px;
   transition: margin-left 0.5s ease;
+}
+
+/*  section 3 starts here */
+
+.free-courses {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: var(--black);
+  text-align: center;
+  background: var(--cta);
+  padding-top: 40px;
+}
+
+.free-courses h3 {
+  font-size: 32px;
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+}
+
+.free-courses p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.container3 {
+  display: flex;
+  padding: 40px 60px;
+  gap: 10px;
+}
+
+.free {
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--text2);
+  box-shadow: 5px 5px 5px var(--black)
+}
+
+.free h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.free p {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.free button {
+  background: var(--cta);
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border: 2px solid var(--cta);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.free button:hover {
+  background: var(--black);
+  color: var(--cta);
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+}
+
+/* section 4 starts here */
+
+.tutors {
+  display: block;
+  position: relative;
+  background: var(--background);
+  color: var(--text2);
+  width: 100%;
+  height: 100%;
+}
+
+.container4 {
+  display: block;
+  padding: 80px 60px;
+  gap: 10px;
+}
+
+.two-tutor {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+
+.circle-div {
+  width: 80%;
+  height: 29em;
+  padding: 40px;
+  border-radius: 500px;
+  background: var(--cta);
+  text-align: center;
+  color: var(--black);
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-div h4 {
+  width: 100%;
+  font-size: 38px;
+  margin: 100px 0 0 0;
+}
+
+.circle-div p {
+  width: auto;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.reviews {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.reviews h1 {
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+.reviews p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.rev1 {
+  background: var(--cta);
+  border-radius: 10px;
+  color: var(--black);
+  padding: 20px;
+  margin-top: 12px;
+}
+
+.rev1:hover {
+  background: var(--background);
+  color: var(--text2);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  cursor: default;
+}
+
+.tutor-holder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  margin-top: 120px;
+}
+
+.tutor {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--cta);
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.tutor h5 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  /* color: var(--cta); */
+}
+
+.tutor p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.tutor img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-position: center;
+}
+
+.subject {
+  color: var(--cta);
+  text-align: center;
 }
