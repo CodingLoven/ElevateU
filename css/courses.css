@@ -1,506 +1,3654 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: auto;
-  font-family: "Heebo", serif;
-  font-style: normal;
-}
-
-:root {
-  --background: #003366;
-  --text2: #FFFFFF;
-  --cta: #C9F31D;
-  --black: #000;
-}
-
-.menu-icon {
-  display: none;
-}
-
-#menu-toggle {
-  display: none;
-}
-
-header {
-  overflow: hidden;
-  margin-bottom: 40px;
-}
-
-nav {
-  display: block;
-  width: 100%;
-  height: auto;
-  padding: 10px 60px;
-  color: var(--black);
-  overflow: hidden;
-  background: var(--background);
-  position: fixed;
-  z-index: 999;
-  box-shadow: 0px 3px 5px var(--black);
-}
-
-.nav-container {
-  display: inline-flex;
-  width: auto;
-  padding: 0;
-  justify-content: space-between;
-  margin: 0;
-  gap: 20px;
-}
-
-.logo {
-  width: 12%;
-  height: 10%;
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
-}
-
-.nav-container ul {
-  display: inline-flex;
-  gap: 30px;
-  justify-content: space-between;
-  font-size: 16px;
-  list-style-type: none;
-}
-
-nav ul li a {
-  color: var(--text2);
-  text-decoration: none;
-  font-size: 16px;
-}
-
-nav ul li a:hover {
-  color: var(--cta);
-}
-
-nav button {
-  display: flex;
-  width: auto;
-  background: var(--cta);
-  font-size: 18px;
-  padding: 15px;
-  border-radius: 50px;
-  cursor: pointer;
-  margin: 0px;
-}
-
-.nav-btn2 {
-  display: none;
-}
-
-/* nav ends here */
-
-/* Section 1 starts here */
-
-.hero {
-  width: 100%;
-  height: 100%;
-  display: block;
-  overflow: hidden;
-  background: var(--background);
-  margin-bottom: 0
-}
-
-.container1 {
-  width: 100%;
-  height: 100%;
-  margin: 40px 60px 0 0;
-  padding-top: 0px;
-  display: flex;
-  gap: 40px;
-  color: var(--text2);
-  align-items: center;
-}
-
-.container1 img {
-  width: 100%;
-  height: 40em;
-  object-fit: cover;
-  object-position: center;
-}
-
-.hero-content {
-  width: 100%;
-  height: 100%;
-  margin-right: 60px;
-  padding: 20px;
-  border: 2px solid var(--cta);
-  box-shadow: -4px -4px 5px var(--black)
-}
-
-.hero-content h1 {
-  font-size: 72px;
-  line-height: 1;
-  width: 100%;
-  margin: 0
-}
-
-.hero-content p {
-  margin: 10px 0;
-  font-size: 16px;
-  line-height: 1.3;
-  padding-left: 5px;
-}
-
-.hero-content button {
-  padding: 10px 30px;
-  margin-left: 5px;
-  margin-top: 10px;
-  border-radius: 50px;
-  border: 2px solid var(--cta);
-  font-size: 18px;
-  background: var(--cta);
-  color: var(--black);
-  box-shadow: 3px 3px 5px var(--black);
-  cursor: pointer;
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 25%
-}
-
-.hero-content button:hover {
-  background: var(--black);
-  color: var(--cta);
-  transform:scale(1.1);
-  transition: 0.7s ease;
-}
-
-.hero-content button svg {
-  width: 25%;
-  color: var(--black);
-  margin-top: 7px;
-}
-
-.hero-content button:hover  svg{
-  color: var(--cta)
-}
-
-
-
-/* section 2 stats here */
-.course-categories {
-  display: block;
-  background: var(--background);
-  overflow: hidden;
-  padding: 40px 0;
-  width: 100%;
-  height: 100%;
-  color: var(--text2);
-}
-
-.container2 {
-  width: auto;
-  height: 100%;
-  text-align: center;
-  display: block;
-  padding: 0 60px;
-}
-
-.container2 h2 {
-  font-size: 32px;
-  line-height: 1.1;
-  padding: 0 160px;
-  word-break: normal;
-}
-
-.category-holder {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.category-holder span {
-  color: var(--black);
-  text-decoration: none;
-  padding: 20px 8px;
-  width: 100%;
-  height: 100%;
-  background: var(--cta);
-  margin-top: 8px;
-  text-align: left;
-}
-
-.category-holder span h2 {
-  font-size: 26px;
-  text-align: left;
-  padding: 0 10px;
-  margin: 10px 0;
-}
-
-.category-holder span p {
-  font-size: 16px;
-  margin: 10px 0;
-  padding: 0 10px;
-}
-
-.category-holder img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.category-holder a svg {
-  width: 12%;
-  height: 100%;
-  margin-top: 10px;
-  margin-left: 8px;
-  padding: 10px;
-  color: var(--cta);
-  background: var(--black);
-  border-radius: 15px;
-}
-
-.category-holder span:hover {
-  box-shadow: -5px 5px 5px var(--black);
-  transform: scale(1.1);
-  transition: all 0.7s ease;
-  background: var(--background);
-  color: var(--text2)
-}
-
-.category-holder span:hover a svg{
-  background: var(--cta);
-  color: var(--black);
-  width: 10%;
-}
-
-.container2 button {
-  background: var(--cta);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 22%;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 50px;
-  border: 2px solid var(--cta);
-  cursor: pointer;
-  margin-top: 20px;
-  box-shadow: 3px 3px 5px var(--black)
-}
-
-.container2 button svg {
-  width: 12%;
-  color: var(--black);
-}
-
-.container2 button:hover {
-  background: var(--black);
-  color: var(--cta);
-  transition: all 0.7s ease;
-  transform: scale(1.1);
-}
-
-.container2 button:hover svg {
-  color: var(--cta);
-  margin-left: 5px;
-  transition: margin-left 0.5s ease;
-}
-
-/*  section 3 starts here */
-
-.free-courses {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  color: var(--black);
-  text-align: center;
-  background: var(--cta);
-  padding-top: 40px;
-}
-
-.free-courses h3 {
-  font-size: 32px;
-  color: var(--black);
-  margin: 0;
-  padding: 0;
-}
-
-.free-courses p {
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-}
-
-.container3 {
-  display: flex;
-  padding: 40px 60px;
-  gap: 10px;
-}
-
-.free {
-  width: 100%;
-  height: 100%;
-  background: var(--background);
-  padding: 20px;
-  border-radius: 20px;
-  color: var(--text2);
-  box-shadow: 5px 5px 5px var(--black)
-}
-
-.free h2 {
-  font-size: 24px;
-  margin: 10px 0;
-  padding: 0;
-}
-
-.free p {
-  font-size: 16px;
-  margin-top: 10px;
-  padding: 0;
-  line-height: 1.5;
-}
-
-.free button {
-  background: var(--cta);
-  font-size: 18px;
-  margin-top: 25px;
-  padding: 10px 20px;
-  border: 2px solid var(--cta);
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.free button:hover {
-  background: var(--black);
-  color: var(--cta);
-  transform: scale(1.1);
-  transition: all 0.7s ease;
-}
-
-/* section 4 starts here */
-
-.tutors {
-  display: block;
-  position: relative;
-  background: var(--background);
-  color: var(--text2);
-  width: 100%;
-  height: 100%;
-}
-
-.container4 {
-  display: block;
-  padding: 80px 60px;
-  gap: 10px;
-}
-
-.two-tutor {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between;
-  gap: 100px;
-  margin-bottom: 40px;
-}
-
-.circle-div {
-  width: 80%;
-  height: 29em;
-  padding: 40px;
-  border-radius: 500px;
-  background: var(--cta);
-  text-align: center;
-  color: var(--black);
-  align-items: center;
-  justify-content: center;
-}
-
-.circle-div h4 {
-  width: 100%;
-  font-size: 38px;
-  margin: 100px 0 0 0;
-}
-
-.circle-div p {
-  width: auto;
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-.reviews {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-}
-
-.reviews h1 {
-  font-size: 52px;
-  margin: 0;
-  padding: 0;
-}
-
-.reviews p {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-.rev1 {
-  background: var(--cta);
-  border-radius: 10px;
-  color: var(--black);
-  padding: 20px;
-  margin-top: 12px;
-}
-
-.rev1:hover {
-  background: var(--background);
-  color: var(--text2);
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
-  cursor: default;
-}
-
-.tutor-holder {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  gap: 10px;
-  margin-top: 120px;
-}
-
-.tutor {
-  width: 100%;
-  height: 100%;
-  border: 2px solid var(--cta);
-  margin-bottom: 20px;
-  padding: 10px;
-  text-align: left;
-}
-
-.tutor h5 {
-  font-size: 32px;
-  margin: 0;
-  padding: 0;
-  /* color: var(--cta); */
-}
-
-.tutor p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 10px 0;
-  padding: 0;
-}
-
-.tutor img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  object-position: center;
-}
-
-.subject {
-  color: var(--cta);
-  text-align: center;
+@media (min-width: 1024px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 60px;
+    color: var(--black);
+    overflow: hidden;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: inline-flex;
+    width: auto;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 12%;
+    height: 10%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-container ul {
+    display: inline-flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  nav button {
+    display: flex;
+    width: auto;
+    background: var(--cta);
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0px;
+  }
+
+  .nav-btn2 {
+    display: none;
+  }
+
+  /* nav ends here */
+
+  /* Section 1 starts here */
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background: var(--background);
+    margin-bottom: 0
+  }
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    margin: 40px 60px 0 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 40px;
+    color: var(--text2);
+    align-items: center;
+  }
+
+  .container1 img {
+    width: 100%;
+    height: 40em;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    height: 100%;
+    margin-right: 60px;
+    padding: 20px;
+    border: 2px solid var(--cta);
+    box-shadow: -4px -4px 5px var(--black)
+  }
+
+  .hero-content h1 {
+    font-size: 72px;
+    line-height: 1;
+    width: 100%;
+    margin: 0
+  }
+
+  .hero-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-left: 5px;
+  }
+
+  .hero-content button {
+    padding: 10px 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    font-size: 18px;
+    background: var(--cta);
+    color: var(--black);
+    box-shadow: 3px 3px 5px var(--black);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%
+  }
+
+  .hero-content button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform:scale(1.1);
+    transition: 0.7s ease;
+  }
+
+  .hero-content button svg {
+    width: 25%;
+    color: var(--black);
+    margin-top: 7px;
+  }
+
+  .hero-content button:hover  svg{
+    color: var(--cta)
+  }
+
+
+
+  /* section 2 stats here */
+  .course-categories {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text2);
+  }
+
+  .container2 {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 0 60px;
+  }
+
+  .container2 h2 {
+    font-size: 32px;
+    line-height: 1.1;
+    padding: 0 160px;
+    word-break: normal;
+  }
+
+  .category-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+  }
+
+  .category-holder span {
+    color: var(--black);
+    text-decoration: none;
+    padding: 20px 8px;
+    width: 100%;
+    height: 100%;
+    background: var(--cta);
+    margin-top: 8px;
+    text-align: left;
+  }
+
+  .category-holder span h2 {
+    font-size: 26px;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+
+  .category-holder span p {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+
+  .category-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .category-holder a svg {
+    width: 12%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 10px;
+    color: var(--cta);
+    background: var(--black);
+    border-radius: 15px;
+  }
+
+  .category-holder span:hover {
+    box-shadow: -5px 5px 5px var(--black);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+    background: var(--background);
+    color: var(--text2)
+  }
+
+  .category-holder span:hover a svg{
+    background: var(--cta);
+    color: var(--black);
+    width: 10%;
+  }
+
+  .container2 button {
+    background: var(--cta);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 22%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px var(--black)
+  }
+
+  .container2 button svg {
+    width: 12%;
+    color: var(--black);
+  }
+
+  .container2 button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+  }
+
+  .container2 button:hover svg {
+    color: var(--cta);
+    margin-left: 5px;
+    transition: margin-left 0.5s ease;
+  }
+
+  /*  section 3 starts here */
+
+  .free-courses {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: var(--black);
+    text-align: center;
+    background: var(--cta);
+    padding-top: 40px;
+  }
+
+  .free-courses h3 {
+    font-size: 32px;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+  }
+
+  .free-courses p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container3 {
+    display: flex;
+    padding: 40px 60px;
+    gap: 10px;
+  }
+
+  .free {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--text2);
+    box-shadow: 5px 5px 5px var(--black)
+  }
+
+  .free h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .free p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  .free button {
+    background: var(--cta);
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: 2px solid var(--cta);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .free button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+  }
+
+  /* section 4 starts here */
+
+  .tutors {
+    display: block;
+    position: relative;
+    background: var(--background);
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+  }
+
+  .container4 {
+    display: block;
+    padding: 80px 60px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .two-tutor {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 40px;
+  }
+
+  .circle-div {
+    width: 80%;
+    height: 29em;
+    padding: 40px;
+    border-radius: 500px;
+    background: var(--cta);
+    text-align: center;
+    color: var(--black);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px var(--black);
+  }
+
+  .svg-div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 90px 0 0 0;
+  }
+
+  .svg-div svg {
+    width: 10%;
+    height: 100%;
+    color: var(--background);
+  }
+
+  .circle-div h4 {
+    width: 100%;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .circle-div p {
+    width: auto;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .reviews h1 {
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .reviews p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rev1 {
+    background: var(--cta);
+    border-radius: 10px;
+    color: var(--black);
+    padding: 20px;
+    margin-top: 12px;
+  }
+
+  .rev1:hover {
+    background: var(--background);
+    color: var(--text2);
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: default;
+  }
+
+  .container4 h2 {
+    font-size: 32px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
+
+  .tutor-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+  }
+
+  .tutor {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cta);
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .tutor h5 {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+    background: var(--cta);
+    color: var(--black)
+  }
+
+  .tutor p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .tutor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-position: center;
+  }
+
+  .subject {
+    color: var(--cta);
+    text-align: center;
+  }
+
+
+  /* section 5 begins here */
+
+  .enrollment {
+    display: block; 
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+  }
+
+  .container5 {
+    display: flex;
+    width: 100%;
+    padding: 40px 60px;
+    height: 100%;
+    text-align: left;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .enroll-img-div {
+    width: 100%;
+    height: 60em;
+    margin-top: 85px;
+  }
+
+  .enroll-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .enroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .enroll h1{
+    font-size: 46px;
+    color: var(--text2);
+    line-height: 1.2;
+    width: auto;
+  }
+
+  .steps {
+    width: auto;
+    background: var(--black);
+    color: var(--cta);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+  .steps h5 {
+    font-size: 32px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps p {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps svg {
+    width: 6%;
+    height: auto;
+    color: var(--black)
+  }
+
+  .steps:hover svg {
+    color: var(--cta);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+
+  .enroll a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 20px */
+  }
+
+  /* footer starts here and i am fucking tired of this project as of now 
+  having to design the responsiveness  for other devices is one hell of a job right now */
+  footer {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 80px 60px 20px 60px;
+  }
+    
+  .footer-container {
+    display: inline-flex;
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 40px
+  }
+    
+    
+  .call {
+    width: 60%;
+    background: var(--cta);
+    color: var(--black);
+    padding: 30px;
+    border-top-right-radius: 40px;
+    text-align: left;
+    transform: rotate(60deg);
+    transition: transform 1s ease;
+  }
+    
+  .call h4 {
+    font-size: 34px;
+    margin: 0;
+    line-height: 1.2;
+    word-wrap: normal;
+    word-break: normal;
+  }
+    
+  .call p {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    line-height: 1.5;
+    width: 90%;
+  }
+    
+  .footer-links {
+    display: block;
+    height: 60%;
+    width: auto;
+    text-align: center;
+    padding: 30px;
+    background: var(--cta);
+    border-radius: 40px;
+  }
+    
+  .footer-links a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 2.3;
+  }
+    
+  .footer-links a:hover {
+    color: var(--background)
+  }
+    
+  form {
+    width: 70%;
+    background: var(--cta);
+    padding: 30px;
+    color: var(--black);
+    border-top-left-radius: 40px;
+    transform: rotate(85deg);
+    transition: transform 1s ease;
+  }
+    
+  form h5 {
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+  }
+    
+  form p {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 0;
+  }
+    
+  form input {
+    border-radius: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    background: var(--black);
+    border: 2px solid var(--black);
+    font-size: 16px;
+    color: var(--cta);
+  }
+    
+  input:hover {
+    border: 2px solid var(--cta);
+    background: var(--black);
+    color: var(--cta);
+    transition: 0.5s ease;
+  }
+    
+  input::placeholder {
+    color: var(--cta);
+  }
+    
+  input:hover::placeholder {
+    color: var(--cta);
+  }
+    
+  input:focus::placeholder {
+    color: var(--cta);
+  }
+    
+  input:focus {
+    background: var(--black);
+    border: 2px solid var(--cta);
+    box-shadow: 0 0 5px var(--black);
+  }
+    
+  form button {
+    padding: 15px 30px;
+    border: 2px solid var(--black);
+    background: var(--black);
+    border-radius: 50px;
+    color: var(--cta);
+    font-size: 16px;
+    margin-left: 2%;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+    
+  .cont-us {
+    padding: 0;
+    margin-top: 15px;
+    display: block;
+  }
+    
+  .cont-us h5 {
+    font-size: 34px;
+    margin: 0px;
+    padding: 0;
+  }
+    
+  .cont-us span {
+    font-size: 14px;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+    
+  .cont-us span svg {
+    width: 5%
+  }
+    
+  .call-carrier {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 40px;
+  }
+    
+  .socials {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    transform: rotate(-80deg);
+    transition: transform 1s ease;
+  }
+    
+  .social-logos {
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: var(--cta);
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+    
+  .social-logos span {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--cta);
+    padding: 10px 10px;
+    border-radius: 40px;
+    display: flex;
+  }
+    
+  .social-logos h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+  }
+    
+  .social-logos span img {
+    width: 100%;
+    height: 15%;
+  }
+    
+  .social-logos span img a {
+    text-decoration: none;
+  }
+    
+  .brand-logo {
+    width: 90%;
+    height: auto;
+    margin-top: 50px
+  }
+    
+  .brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
+  footer:hover .call {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+    
+  footer:hover .socials {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+    
+  footer:hover form {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+    
+  hr {
+    margin-top: 30px;
+    border: 1px solid var(--cta)
+  }
+    
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+    
+  .copyright a {
+    text-decoration: none;
+    color: var(--text2);
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  /* footer ends */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+
+  /* nav section starts here */
+  .menu-icon{
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    color: var(--black);
+    overflow: hidden;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: inline-flex;
+    width: auto;
+    padding: 0px;
+    justify-content: space-around;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 12%;
+    height: 10%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-container ul {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  nav button {
+    display: flex;
+    width: auto;
+    background: var(--cta);
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+  }
+
+  .nav-btn2 {
+    display: none;
+  }
+
+  /* nav section ends here */
+
+  /* Section 1 starts here */
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background: var(--background);
+    margin-bottom: 0
+  }
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    margin: 40px 40px 0 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 20px;
+    color: var(--text2);
+    align-items: center;
+  }
+
+  .container1 img {
+    width: 100%;
+    height: 40em;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    height: 100%;
+    margin-right:45px;
+    padding: 20px;
+    border: 2px solid var(--cta);
+    box-shadow: -4px -4px 5px var(--black)
+  }
+
+  .hero-content h1 {
+    font-size: 62px;
+    line-height: 1;
+    width: 100%;
+    margin: 0
+  }
+
+  .hero-content p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.3;
+    padding-left: 5px;
+  }
+
+  .hero-content button {
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    font-size: 18px;
+    background: var(--cta);
+    color: var(--black);
+    box-shadow: 3px 3px 5px var(--black);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%
+  }
+
+  .hero-content button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+  }
+
+  .hero-content button svg {
+    width: 22%;
+    color: var(--black);
+    margin-top: 7px;
+  }
+
+  .hero-content button:hover svg {
+    color: var(--cta)
+  }
+
+
+
+  /* section 2 stats here */
+  .course-categories {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text2);
+  }
+
+  .container2 {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 0 40px;
+  }
+
+  .container2 h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 0 160px;
+    word-break: normal;
+  }
+
+  .category-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+  .category-holder span {
+    color: var(--black);
+    text-decoration: none;
+    padding: 20px 5px;
+    width: 100%;
+    height: 100%;
+    background: var(--cta);
+    margin-top: 8px;
+    text-align: left;
+  }
+
+  .category-holder span h2 {
+    font-size: 20px;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: auto;
+  }
+
+  .category-holder span p {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+
+  .category-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .category-holder a svg {
+    width: 8%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 10px;
+    color: var(--cta);
+    background: var(--black);
+    border-radius: 15px;
+  }
+
+  .category-holder span:hover {
+    box-shadow: -5px 5px 5px var(--black);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+    background: var(--background);
+    color: var(--text2)
+  }
+
+  .category-holder span:hover a svg {
+    background: var(--cta);
+    color: var(--black);
+    width: 10%;
+  }
+
+  .container2 button {
+    background: var(--cta);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 26%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px var(--black)
+  }
+
+  .container2 button svg {
+    width: 12%;
+    color: var(--black);
+  }
+
+  .container2 button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+  }
+
+  .container2 button:hover svg {
+    color: var(--cta);
+    margin-left: 5px;
+    transition: margin-left 0.5s ease;
+  }
+
+  /*  section 3 starts here */
+
+  .free-courses {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: var(--black);
+    text-align: center;
+    background: var(--cta);
+    padding-top: 40px;
+  }
+
+  .free-courses h3 {
+    font-size: 32px;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+  }
+
+  .free-courses p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container3 {
+    display: flex;
+    padding: 40px 40px;
+    gap: 15px;
+    width: auto;
+  }
+
+  .free {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--text2);
+    box-shadow: 5px 5px 5px var(--black)
+  }
+
+  .free h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    padding: 0;
+    word-break: normal;
+  }
+
+  .free p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  .free button {
+    background: var(--cta);
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid var(--cta);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .free button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+  }
+
+  /* section 4 starts here */
+
+  .tutors {
+    display: block;
+    position: relative;
+    background: var(--background);
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+  }
+
+  .container4 {
+    display: block;
+    padding: 80px 40px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .two-tutor {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 40px;
+  }
+
+  .circle-div {
+    width: 100%;
+    height: 24em;
+    padding: 40px;
+    border-radius: 500px;
+    background: var(--cta);
+    text-align: center;
+    color: var(--black);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px var(--black);
+  }
+
+  .svg-div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 30px 0 0 0;
+  }
+
+  .svg-div svg {
+    width: 8%;
+    height: 100%;
+    color: var(--background);
+  }
+
+  .circle-div h4 {
+    width: 100%;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .circle-div p {
+    width: auto;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .reviews h1 {
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .reviews p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rev1 {
+    background: var(--cta);
+    border-radius: 10px;
+    color: var(--black);
+    padding: 20px;
+    margin-top: 12px;
+  }
+
+  .rev1:hover {
+    background: var(--background);
+    color: var(--text2);
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: default;
+  }
+
+  .container4 h2 {
+    font-size: 34px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
+
+  .tutor-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+  }
+
+  .tutor {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cta);
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .tutor h5 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    background: var(--cta);
+    color: var(--black)
+  }
+
+  .tutor p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .tutor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-position: center;
+  }
+
+  .subject {
+    color: var(--cta);
+    text-align: center;
+  }
+
+
+  /* section 5 begins here */
+
+  .enrollment {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+  }
+
+  .container5 {
+    display: flex;
+    width: 100%;
+    padding: 40px 40px;
+    height: 100%;
+    text-align: left;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .enroll-img-div {
+    width: 100%;
+    height: 60em;
+    margin-top: 85px;
+  }
+
+  .enroll-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .enroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .enroll h1 {
+    font-size: 43px;
+    color: var(--text2);
+    line-height: 1.2;
+    width: auto;
+  }
+
+  .steps {
+    width: auto;
+    background: var(--black);
+    color: var(--cta);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+  .steps h5 {
+    font-size: 28px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps p {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps svg {
+    width: 6%;
+    height: auto;
+    color: var(--black)
+  }
+
+  .steps:hover svg {
+    color: var(--cta);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+
+  .enroll a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 20px */
+  }
+
+  /* footer starts here and i am fucking tired of this project as of now 
+  having to design the responsiveness  for other devices is one hell of a job right now */
+
+  footer {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 80px 40px 20px 10px;
+  }
+
+  .footer-container {
+    display: inline-flex;
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px
+  }
+
+  .call {
+    width: 50%;
+    background: var(--cta);
+    color: var(--black);
+    padding: 20px;
+    border-top-right-radius: 40px;
+    text-align: left;
+    transform: rotate(60deg);
+    transition: transform 1s ease;
+  }
+
+  .call h4 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.2;
+    word-wrap: normal;
+    word-break: normal;
+  }
+
+  .call p {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    line-height: 1.5;
+    width: 90%;
+  }
+
+  .footer-links {
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 40px 0;
+    background: var(--cta);
+    border-radius: 40px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    line-height: 2.3;
+  }
+
+  .footer-links a:hover {
+    color: var(--background)
+  }
+
+  form {
+    width: 50%;
+    background: var(--cta);
+    padding: 20px;
+    color: var(--black);
+    border-top-left-radius: 40px;
+    transform: rotate(85deg);
+    transition: transform 1s ease;
+  }
+
+  form h5 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  form input {
+    border-radius: 50px;
+    padding: 12px 10px;
+    background: var(--black);
+    border: 2px solid var(--black);
+    font-size: 14px;
+    color: var(--cta);
+    margin-top: 10px;
+  }
+
+  .form-div {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+
+  input:hover {
+    border: 2px solid var(--cta);
+    background: var(--black);
+    color: var(--cta);
+    transition: 0.5s ease;
+  }
+
+  input::placeholder {
+    color: var(--cta);
+  }
+
+  input:hover::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus {
+    background: var(--black);
+    border: 2px solid var(--cta);
+    box-shadow: 0 0 5px var(--black);
+  }
+
+  form button {
+    padding: 5px 30px;
+    border: 2px solid var(--black);
+    background: var(--black);
+    border-radius: 50px;
+    color: var(--cta);
+    font-size: 14px;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .cont-us {
+    padding: 0;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .cont-us h5 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .cont-us span {
+    font-size: 13px;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .cont-us span svg {
+    width: 5%
+  }
+
+  .call-carrier {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .socials {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    transform: rotate(-80deg);
+    transition: transform 1s ease;
+    /* height: 125%; temporary */
+  }
+
+  .social-logos {
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: var(--cta);
+    margin-top: 30px;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+
+  .social-logos span {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--cta);
+    padding: 10px 10px;
+    border-radius: 40px;
+    display: flex;
+  }
+
+  .social-logos h1 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+  }
+
+  .social-logos span img {
+    width: 100%;
+    height: 15%;
+  }
+
+  .social-logos span img a {
+    text-decoration: none;
+  }
+
+  .brand-logo {
+    width: 70%;
+    height: auto;
+    margin-top: 0px
+  }
+
+  .brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  footer:hover .call {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover .socials {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover form {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  hr {
+    margin-top: 30px;
+    border: 1px solid var(--cta)
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .copyright a {
+    text-decoration: none;
+    color: var(--text2);
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  /* footer ends */
+}
+
+
+
+@media (max-width: 767px){
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+  /* nav section starts here */
+
+  .menu-icon{
+    display: block;
+    position: absolute;
+    margin: auto;
+    right: 40px;
+    color: var(--cta);
+    font-size: 30px;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked+.menu-icon+.nav-links {
+    display: flex;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    color: var(--black);
+    overflow: visible;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+  
+  .nav-container {
+    display: flex;
+    width: auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 15%;
+    height: auto;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 40px;
+    right: 0;
+    background: var(--cta);
+    width: auto;
+    text-align: left;
+    gap: 5px;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 30px;
+    border-top-left-radius: 40px;
+  }
+
+  nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  .nav-btn {
+    display: none;
+    width: auto;
+    text-align: center;
+    background: var(--cta);
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .nav-btn2 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    background: var(--black);
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    color: var(--cta);
+    margin-top: 10px;
+  }
+
+  /* nav ends here */
+
+  /* Section 1 starts here */
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background: var(--background);
+    margin-bottom: 0
+  }
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px 30px 0 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 30px;
+    color: var(--text2);
+    align-items: center;
+  }
+
+  .container1 img {
+    width: 40%;
+    height: 40em;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    height: 100%;
+    margin-right:45px;
+    padding: 20px;
+    border: 2px solid var(--cta);
+    box-shadow: -4px -4px 5px var(--black)
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1;
+    width: auto;
+    margin: 0
+  }
+
+  .hero-content p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    padding-left: 5px;
+  }
+
+  .hero-content button {
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    font-size: 17px;
+    background: var(--cta);
+    color: var(--black);
+    box-shadow: 3px 3px 5px var(--black);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%
+  }
+
+  .hero-content button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+  }
+
+  .hero-content button svg {
+    width: 20%;
+    color: var(--black);
+    margin-top: 7px;
+  }
+
+  .hero-content button:hover svg {
+    color: var(--cta)
+  }
+
+
+
+  /* section 2 stats here */
+  .course-categories {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text2);
+  }
+
+  .container2 {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 0 30px;
+  }
+
+  .container2 h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 0 100px;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+
+  .category-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    margin-bottom: 8px;
+  }
+
+  .category-holder span {
+    color: var(--black);
+    text-decoration: none;
+    padding: 5px 5px;
+    width: 100%;
+    height: 100%;
+    background: var(--cta);
+    margin-top: px;
+    text-align: left;
+  }
+
+  .category-holder span h2 {
+    font-size: 14px;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: auto;
+  }
+
+  /* .category-holder span p {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 10px;
+  } */
+
+  .category-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .category-holder a svg {
+    width: 10%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 5px;
+    color: var(--cta);
+    background: var(--black);
+    border-radius: 15px;
+  }
+
+  .category-holder span:hover {
+    box-shadow: -5px 5px 5px var(--black);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+    background: var(--background);
+    color: var(--text2)
+  }
+
+  .category-holder span:hover a svg {
+    background: var(--cta);
+    color: var(--black);
+    width: 10%;
+  }
+
+  .container2 button {
+    background: var(--cta);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 36%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px var(--black)
+  }
+
+  .container2 button svg {
+    width: 12%;
+    color: var(--black);
+  }
+
+  .container2 button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+  }
+
+  .container2 button:hover svg {
+    color: var(--cta);
+    margin-left: 5px;
+    transition: margin-left 0.5s ease;
+  }
+
+  /*  section 3 starts here */
+
+  .free-courses {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: var(--black);
+    text-align: center;
+    background: var(--cta);
+    padding-top: 40px;
+  }
+
+  .free-courses h3 {
+    font-size: 28px;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+  }
+
+  .free-courses p {
+    font-size: 15px;
+    padding: 0 30px;
+    margin: 0;
+  }
+
+  .container3 {
+    display: flex;
+    padding: 40px 30px;
+    gap: 10px;
+    width: auto;
+  }
+
+  .free {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    padding: 10px;
+    border-radius: 15px;
+    color: var(--text2);
+    box-shadow: 5px 5px 5px var(--black);
+  }
+
+  .free h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+    word-break: normal;
+    line-height: 1;
+  }
+
+  .free p {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px;
+    line-height: 1.5;
+  }
+
+  .free button {
+    background: var(--cta);
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid var(--cta);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .free button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+  }
+
+  /* section 4 starts here */
+
+  .tutors {
+    display: block;
+    position: relative;
+    background: var(--background);
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+  }
+
+  .container4 {
+    display: block;
+    padding: 80px 30px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .two-tutor {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .circle-div {
+    width: 100%;
+    height: 19em;
+    padding: 40px;
+    border-radius: 500px;
+    background: var(--cta);
+    text-align: center;
+    color: var(--black);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px var(--black);
+  }
+
+  .svg-div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .svg-div svg {
+    width: 8%;
+    height: 100%;
+    color: var(--background);
+  }
+
+  .circle-div h4 {
+    width: 100%;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .circle-div p {
+    width: auto;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .reviews h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .reviews p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rev1 {
+    background: var(--cta);
+    border-radius: 10px;
+    color: var(--black);
+    padding: 15px;
+    margin-top: 12px;
+  }
+
+  .rev1:hover {
+    background: var(--background);
+    color: var(--text2);
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: default;
+  }
+
+  .container4 h2 {
+    font-size: 34px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .tutor-holder {
+    display: block;
+    width: auto;
+    height: 100%;
+    gap: 5px;
+  }
+
+  .tutor {
+    width: auto;
+    height: 100%;
+    border: 2px solid var(--cta);
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .tutor h5 {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+    background: var(--cta);
+    color: var(--black)
+  }
+
+  .tutor p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .tutor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-position: center;
+  }
+
+  .subject {
+    color: var(--cta);
+    text-align: center;
+  }
+
+
+  /* section 5 begins here */
+
+  .enrollment {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+  }
+
+  .container5 {
+    display: flex;
+    width: 100%;
+    padding: 40px 30px;
+    height: 100%;
+    text-align: left;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .enroll-img-div {
+    width: 60%;
+    height: 48em;
+    margin-top: 75px;
+  }
+
+  .enroll-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .enroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .enroll h1 {
+    font-size: 32px;
+    color: var(--text2);
+    line-height: 1.2;
+    width: auto;
+  }
+
+  .steps {
+    width: auto;
+    background: var(--black);
+    color: var(--cta);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+  .steps h5 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps svg {
+    width: 6%;
+    height: auto;
+    color: var(--black)
+  }
+
+  .steps:hover svg {
+    color: var(--cta);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+
+  .enroll a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 20px */
+  }
+  
+  /* section 5 ends here */
+
+  /* footer starts here*/
+
+  footer {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: grid;
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+    /* justify-content: space-around; */
+    gap: 5px
+  }
+
+  .call {
+    width: 50%;
+    background: var(--cta);
+    color: var(--black);
+    padding: 20px;
+    border-top-right-radius: 40px;
+    text-align: left;
+    transform: rotate(60deg);
+    transition: transform 1s ease;
+  }
+
+  .call h4 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 1.2;
+    word-wrap: normal;
+    word-break: normal;
+  }
+
+  .call p {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .footer-links {
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 10px ;
+    background: var(--cta);
+    border-radius: 40px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 2.3;
+  }
+
+  .footer-links a:hover {
+    color: var(--background)
+  }
+
+  form {
+    width: auto;
+    background: var(--cta);
+    padding: 30px;
+    margin: 10px 30px;
+    color: var(--black);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transform: rotate(85deg);
+    transition: transform 1s ease;
+  }
+
+  form h5 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 5px;
+  }
+
+  form input {
+    border-radius: 50px;
+    padding: 12px 10px;
+    background: var(--black);
+    border: 2px solid var(--black);
+    font-size: 14px;
+    color: var(--cta);
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .form-div {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+  }
+
+  input:hover {
+    border: 2px solid var(--cta);
+    background: var(--black);
+    color: var(--cta);
+    transition: 0.5s ease;
+  }
+
+  input::placeholder {
+    color: var(--cta);
+  }
+
+  input:hover::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus {
+    background: var(--black);
+    border: 2px solid var(--cta);
+    box-shadow: 0 0 5px var(--black);
+  }
+
+  form button {
+    padding: 5px 30px;
+    border: 2px solid var(--black);
+    background: var(--black);
+    border-radius: 50px;
+    color: var(--cta);
+    font-size: 14px;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .cont-us {
+    padding: 0;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .cont-us h5 {
+    font-size: 32px;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .cont-us span {
+    font-size: 14px;
+    display: inline-flex;
+    gap: 12px;
+    margin-top: 5px;
+  }
+
+  .cont-us span svg {
+    width: 6%
+  }
+
+  .call-carrier {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .socials {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    transform: rotate(-80deg);
+    transition: transform 1s ease;
+  }
+
+  .social-logos {
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: var(--cta);
+    margin-top: 30px;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+
+  .social-logos span {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--cta);
+    padding: 10px 10px;
+    border-radius: 40px;
+    display: flex;
+  }
+
+  .social-logos h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+  }
+
+  .social-logos span img {
+    width: 100%;
+    height: 15%;
+  }
+
+  .social-logos span img a {
+    text-decoration: none;
+  }
+
+  .brand-logo {
+    width: 70%;
+    height: auto;
+    margin-top: 0px
+  }
+
+  .brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  footer:hover .call {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover .socials {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover form {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  hr {
+    border: 1px solid var(--cta);
+    margin: 0 30px;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 0 30px;
+  }
+
+  .copyright a {
+    text-decoration: none;
+    color: var(--text2);
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+
+
+
+@media (max-width: 478px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+   .menu-icon {
+    display: block;
+    position: absolute;
+    margin: auto;
+    right: 20px;
+    color: var(--cta);
+    font-size: 22px;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked+.menu-icon+.nav-links {
+    display: flex;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    color: var(--black);
+    overflow: visible;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 22%;
+    height: auto;
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 25px;
+    right: 0;
+    background: var(--cta);
+    width: auto;
+    text-align: left;
+    gap: 5px;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 30px;
+    border-top-left-radius: 40px;
+  }
+
+  nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  nav ul li a:hover {
+    color: var(--background);
+  }
+
+  .nav-btn {
+    display: none;
+    width: auto;
+    text-align: center;
+    background: var(--cta);
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .nav-btn2 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    background: var(--black);
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    color: var(--cta);
+    margin-top: 8px;
+  }
+
+
+  /* Section 1 starts here */
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background: var(--background);
+    margin-bottom: 0
+  }
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px 15px 0 0;
+    padding-top: 0px;
+    display: flex;
+    gap: 30px;
+    color: var(--text2);
+    align-items: center;
+  }
+
+  .container1 img {
+    width: 30%;
+    height: 40em;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    height: 100%;
+    margin-right: 40px;
+    padding: 20px;
+    border: 2px solid var(--cta);
+    box-shadow: -4px -4px 5px var(--black)
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 1;
+    width: auto;
+    margin: 0
+  }
+
+  .hero-content p {
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 1.3;
+    padding-left: 5px;
+  }
+
+  .hero-content button {
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    font-size: 17px;
+    background: var(--cta);
+    color: var(--black);
+    box-shadow: 3px 3px 5px var(--black);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 52%
+  }
+
+  .hero-content button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+  }
+
+  .hero-content button svg {
+    width: 20%;
+    color: var(--black);
+    margin-top: 7px;
+  }
+
+  .hero-content button:hover svg {
+    color: var(--cta)
+  }
+
+
+  /* section 2 starts here */
+  .course-categories {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text2);
+  }
+
+  .container2 {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 15px;
+  }
+
+  .container2 h2 {
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0px;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+
+  .category-holder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    margin-bottom: 8px;
+    justify-content: center;
+  }
+
+  .category-holder span {
+    color: var(--black);
+    text-decoration: none;
+    padding: 15px 15px;
+    width: auto;
+    height: 100%;
+    background: var(--cta);
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    border-radius: 20px;
+  }
+
+  .category-holder span h2 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: auto;
+  }
+
+  /* .category-holder span p {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 10px;
+  } */
+
+  .category-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .category-holder a svg {
+    width: 10%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 5px;
+    color: var(--cta);
+    background: var(--black);
+    border-radius: 15px;
+  }
+
+  .category-holder span:hover {
+    box-shadow: -5px 5px 5px var(--black);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+    background: var(--background);
+    color: var(--text2)
+  }
+
+  .category-holder span:hover a svg {
+    background: var(--cta);
+    color: var(--black);
+    width: 10%;
+  }
+
+  .container2 button {
+    background: var(--cta);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px var(--black)
+  }
+
+  .container2 button svg {
+    width: 12%;
+    color: var(--black);
+  }
+
+  .container2 button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transition: all 0.7s ease;
+    transform: scale(1.1);
+  }
+
+  .container2 button:hover svg {
+    color: var(--cta);
+    margin-left: 5px;
+    transition: margin-left 0.5s ease;
+  }
+
+  /*  section 3 starts here */
+
+  .free-courses {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: var(--black);
+    text-align: center;
+    background: var(--cta);
+    padding-top: 40px;
+  }
+
+  .free-courses h3 {
+    font-size: 24px;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+  }
+
+  .free-courses p {
+    font-size: 14px;
+    padding: 0 60px;
+    margin: 0;
+  }
+
+  .container3 {
+    display: block;
+    padding: 40px 15px;
+    gap: 10px;
+    width: auto;
+  }
+
+  .free {
+    width: auto;
+    height: 100%;
+    background: var(--background);
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--text2);
+    box-shadow: 5px 5px 5px var(--black);
+    margin-bottom: 20px;
+  }
+
+  .free h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 0;
+    word-break: normal;
+    line-height: 1;
+  }
+
+  .free p {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px;
+    line-height: 1.5;
+  }
+
+  .free button {
+    background: var(--cta);
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 22px;
+    border: 2px solid var(--cta);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .free button:hover {
+    background: var(--black);
+    color: var(--cta);
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+  }
+
+  /* section 4 starts here */
+
+  .tutors {
+    display: block;
+    position: relative;
+    background: var(--background);
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+  }
+
+  .container4 {
+    display: block;
+    padding: 80px 30px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .two-tutor {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .circle-div {
+    width: auto;
+    height: 21em;
+    padding: 40px;
+    border-radius: 500px;
+    background: var(--cta);
+    text-align: center;
+    color: var(--black);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px var(--black);
+  }
+
+  .svg-div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+
+  .svg-div svg {
+    width: 10%;
+    height: 100%;
+    color: var(--background);
+  }
+
+  .circle-div h4 {
+    width: 100%;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .circle-div p {
+    width: auto;
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .reviews h1 {
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .reviews p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rev1 {
+    background: var(--cta);
+    border-radius: 10px;
+    color: var(--black);
+    padding: 15px;
+    margin-top: 12px;
+  }
+
+  .rev1:hover {
+    background: var(--background);
+    color: var(--text2);
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: default;
+  }
+
+  .container4 h2 {
+    font-size: 28px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  .tutor-holder {
+    display: block;
+    width: auto;
+    height: 100%;
+    gap: 5px;
+  }
+
+  .tutor {
+    width: auto;
+    height: 100%;
+    border: 2px solid var(--cta);
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .tutor h5 {
+    font-size: 26px;
+    margin: 0;
+    padding: 10px;
+    background: var(--cta);
+    color: var(--black)
+  }
+
+  .tutor p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .tutor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-position: center;
+  }
+
+  .subject {
+    color: var(--cta);
+    text-align: center;
+  }
+
+
+  /* section 5 begins here */
+
+  .enrollment {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+  }
+
+  .container5 {
+    display: block;
+    width: auto;
+    padding: 0px 25px;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .enroll-img-div {
+    width: 100%;
+    height: 48em;
+    margin-top: 75px;
+  }
+
+  .enroll-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .enroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .enroll h1 {
+    font-size: 24px;
+    color: var(--text2);
+    line-height: 1.2;
+    width: auto;
+  }
+
+  .steps {
+    width: auto;
+    background: var(--black);
+    color: var(--cta);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+  .steps h5 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .steps svg {
+    width: 6%;
+    height: auto;
+    color: var(--black)
+  }
+
+  .steps:hover svg {
+    color: var(--cta);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+
+  .enroll a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 20px */
+  }
+  
+  /* section 5 ends here */
+
+  /* footer starts here*/
+
+  footer {
+    display: block;
+    background: var(--background);
+    overflow: hidden;
+    padding: 80px 10px 20px 10px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: grid;
+    color: var(--text2);
+    width: 100%;
+    height: 100%;
+    /* justify-content: space-around; */
+    gap: 5px
+  }
+
+  .call {
+    width: 50%;
+    background: var(--cta);
+    color: var(--black);
+    padding: 20px;
+    border-top-right-radius: 40px;
+    text-align: left;
+    transform: rotate(60deg);
+    transition: transform 1s ease;
+  }
+
+  .call h4 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 1.2;
+    word-wrap: normal;
+    word-break: normal;
+  }
+
+  .call p {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .footer-links {
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 10px ;
+    background: var(--cta);
+    border-radius: 40px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 2.3;
+  }
+
+  .footer-links a:hover {
+    color: var(--background)
+  }
+
+  form {
+    width: auto;
+    background: var(--cta);
+    padding: 30px;
+    margin: 10px 30px;
+    color: var(--black);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transform: rotate(85deg);
+    transition: transform 1s ease;
+  }
+
+  form h5 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 5px;
+  }
+
+  form input {
+    border-radius: 50px;
+    padding: 12px 10px;
+    background: var(--black);
+    border: 2px solid var(--black);
+    font-size: 14px;
+    color: var(--cta);
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .form-div {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+  }
+
+  input:hover {
+    border: 2px solid var(--cta);
+    background: var(--black);
+    color: var(--cta);
+    transition: 0.5s ease;
+  }
+
+  input::placeholder {
+    color: var(--cta);
+  }
+
+  input:hover::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus::placeholder {
+    color: var(--cta);
+  }
+
+  input:focus {
+    background: var(--black);
+    border: 2px solid var(--cta);
+    box-shadow: 0 0 5px var(--black);
+  }
+
+  form button {
+    padding: 5px 30px;
+    border: 2px solid var(--black);
+    background: var(--black);
+    border-radius: 50px;
+    color: var(--cta);
+    font-size: 14px;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .cont-us {
+    padding: 0;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .cont-us h5 {
+    font-size: 32px;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .cont-us span {
+    font-size: 14px;
+    display: inline-flex;
+    gap: 12px;
+    margin-top: 5px;
+  }
+
+  .cont-us span svg {
+    width: 6%
+  }
+
+  .call-carrier {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .socials {
+    display: block;
+    width: 30%;
+    justify-content: center;
+    transform: rotate(-80deg);
+    transition: transform 1s ease;
+  }
+
+  .social-logos {
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: var(--cta);
+    margin-top: 30px;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+
+  .social-logos span {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--cta);
+    padding: 10px 10px;
+    border-radius: 40px;
+    display: flex;
+  }
+
+  .social-logos h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+  }
+
+  .social-logos span img {
+    width: 100%;
+    height: 15%;
+  }
+
+  .social-logos span img a {
+    text-decoration: none;
+  }
+
+  .brand-logo {
+    width: 70%;
+    height: auto;
+    margin-top: 0px
+  }
+
+  .brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  footer:hover .call {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover .socials {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  footer:hover form {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+  }
+
+  hr {
+    border: 1px solid var(--cta);
+    margin: 0 30px;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 0 30px;
+  }
+
+  .copyright a {
+    text-decoration: none;
+    color: var(--text2);
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
 }
