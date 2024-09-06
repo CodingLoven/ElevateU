@@ -3167,7 +3167,7 @@
 
   .circle-div {
     width: auto;
-    height: 21em;
+    height: 15em;
     padding: 40px;
     border-radius: 500px;
     background: var(--cta);
@@ -3182,7 +3182,7 @@
     display: block;
     margin: 0;
     padding: 0;
-    margin: 40px 0 0 0;
+    /* margin: 40px 0 0 0; */
   }
 
   .svg-div svg {
@@ -3193,14 +3193,14 @@
 
   .circle-div h4 {
     width: 100%;
-    font-size: 28px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
   }
 
   .circle-div p {
     width: auto;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.7;
     margin: 0;
   }
