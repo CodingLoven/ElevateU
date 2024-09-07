@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  font-family: "Heebo", serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #003366;
+  --text2: #FFFFFF;
+  --cta: #C9F31D;
+  --black: #000;
+}
+
+/* Hero section starts here */
+
+.hero-section {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/pexels-yankrukov-8199562.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container1 {
+  width: auto;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  color: var(--text2)
+}
+
+.container1 div {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  text-align: center;
+}
+
+.container1 div h1 {
+  font-size: 72px;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 div p {
+  font-size: 18px;
+  margin: 0;
+  padding: 0px 160px;
+}
