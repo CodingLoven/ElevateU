@@ -211,7 +211,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 50s linear infinite;
+    animation: moveLeftToRight 30s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -1122,7 +1122,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 50s linear infinite;
+    animation: moveLeftToRight 30s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -2075,7 +2075,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 50s linear infinite;
+    animation: moveLeftToRight 30s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -3045,7 +3045,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 50s linear infinite;
+    animation: moveLeftToRight 30s linear infinite;
   }
 
   @keyframes moveLeftToRight {
