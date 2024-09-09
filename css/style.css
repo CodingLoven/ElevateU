@@ -211,7 +211,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 30s linear infinite;
+    animation: moveLeftToRight 40s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -220,7 +220,7 @@
     }
 
     100% {
-      transform: translateX(calc(-100vw - 100px));
+      transform: translateX(calc(-330vw - 100px));
     }
   }
   
@@ -1122,7 +1122,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 30s linear infinite;
+    animation: moveLeftToRight 40s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -1131,7 +1131,7 @@
     }
 
     100% {
-      transform: translateX(calc(-100vw - 100px));
+      transform: translateX(calc(-330vw - 100px));
     }
   }
 
@@ -2075,7 +2075,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 30s linear infinite;
+    animation: moveLeftToRight 40s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -2084,7 +2084,7 @@
     }
 
     100% {
-      transform: translateX(calc(-100vw - 100px));
+      transform: translateX(calc(-320vw - 100px));
     }
   }
 
@@ -3045,7 +3045,7 @@
     text-align: center;
     margin-left: 15px;
     box-shadow: -5px -5px 5px var(--black);
-    animation: moveLeftToRight 30s linear infinite;
+    animation: moveLeftToRight 40s linear infinite;
   }
 
   @keyframes moveLeftToRight {
@@ -3054,7 +3054,7 @@
     }
 
     100% {
-      transform: translateX(calc(-100vw - 100px));
+      transform: translateX(calc(-330vw - 100px));
     }
   }
 
