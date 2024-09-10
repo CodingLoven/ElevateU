@@ -198,6 +198,10 @@
       height: 100%;
       gap: 0px;
     }
+
+    .container2:hover .testimonial-cards {
+      animation-play-state: paused;
+    }
   
   .testimonial-cards {
     background: var(--cta);
@@ -265,13 +269,13 @@
     box-shadow: 5px 5px 5px var(--black);
   } */
 
-  .testimonial button:hover {
+  /* .testimonial button:hover {
     background: var(--black);
     color: var(--cta);
     transition: background-color 0.5s ease, color 0.5s ease;
-  }
+  } */
 
-  svg {
+  /* svg {
     width: 10%;
     color: var(--black);
   }
@@ -281,7 +285,7 @@
     color: var(--cta);
     margin-left: 10px;
     transition: 0.5s ease;
-  }
+  } */
 
   /* section 3 starts here */
 
@@ -309,11 +313,11 @@
     color: var(--text2);
   }
 
-  .works-card:hover {
+  /* .works-card:hover {
     background: var(--black);
     border-radius: 20px;
     transition: background-color 1s ease, color 1s ease;
-  }
+  } */
 
   #svg2 {
     width: 42%;
@@ -1110,6 +1114,10 @@
     gap: 0px;
   }
 
+  .container2:hover .testimonial-cards {
+    animation-play-state: paused;
+  }
+
   .testimonial-cards {
     background: var(--cta);
     width: 40%;
@@ -1221,11 +1229,11 @@
     color: var(--text2);
   }
   
-  .works-card:hover {
+  /* .works-card:hover {
     background: var(--black);
     border-radius: 20px;
     transition: background-color 1s ease, color 1s ease;
-  }
+  } */
 
   #svg2 {
     width: 30%;
@@ -1961,6 +1969,8 @@
   }
   
 
+  /* nav ends here */
+  
   /* Hero section starts here */
 
   .hero-section {
@@ -2063,6 +2073,10 @@
     gap: 0px;
   }
 
+  .container2:hover .testimonial-cards {
+    animation-play-state: paused;
+  }
+
   .testimonial-cards {
     background: var(--cta);
     width: 100%;
@@ -2135,7 +2149,7 @@
     transition: background-color 0.5s ease, color 0.5s ease;
   } */
 
-  svg {
+  /* svg {
     width: 10%;
     color: var(--black);
   }
@@ -2145,7 +2159,7 @@
     color: var(--cta);
     margin-left: 10px;
     transition: 0.5s ease;
-  }
+  } */
 
   /* section 3 starts here */
 
@@ -2174,11 +2188,11 @@
     color: var(--text2);
   }
 
-  .works-card:hover {
+  /* .works-card:hover {
     background: var(--black);
     border-radius: 20px;
     transition: background-color 1s ease, color 1s ease;
-  }
+  } */
 
   #svg2 {
     width: 28%;
@@ -3033,6 +3047,10 @@
     gap: 0px;
   }
 
+  .container2:hover .testimonial-cards {
+    animation-play-state: paused;
+  }
+
   .testimonial-cards {
     background: var(--cta);
     width: 100%;
@@ -3497,7 +3515,7 @@
 
   /* main section ends here 
     
-    footer starts here*/
+  footer starts here*/
 
   footer {
     display: block;

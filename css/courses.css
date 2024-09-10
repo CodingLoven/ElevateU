@@ -16,6 +16,7 @@
     --black: #000;
   }
 
+  /* nav starts here */
   .menu-icon {
     display: none;
   }
@@ -286,7 +287,7 @@
     border-radius: 50px;
     border: 2px solid var(--cta);
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
     box-shadow: 3px 3px 5px var(--black)
   }
 
@@ -1178,7 +1179,7 @@
     border-radius: 50px;
     border: 2px solid var(--cta);
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     box-shadow: 3px 3px 5px var(--black)
   }
 
@@ -3035,13 +3036,13 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 50%;
+    width: 65%;
     padding: 8px 10px;
     font-size: 16px;
     border-radius: 50px;
     border: 2px solid var(--cta);
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     box-shadow: 3px 3px 5px var(--black)
   }
 
