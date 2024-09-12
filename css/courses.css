@@ -64,7 +64,7 @@
 
   .nav-container ul {
     display: inline-flex;
-    gap: 30px;
+    gap: 22px;
     justify-content: space-between;
     font-size: 16px;
     list-style-type: none;
@@ -3379,7 +3379,7 @@
   
   /* section 5 ends here */
 
-  /* footer starts here*/
+  footer starts here*/
 
   footer {
     display: block;
@@ -3388,15 +3388,15 @@
     padding: 80px 0px 20px 0px;
     justify-content: center;
     width: 100%;
+    height: 100%;
   }
-  
+
   .footer-container {
-    display: grid;
+    display: block;
     color: var(--text2);
     width: 100%;
     height: 100%;
-    /* justify-content: space-around; */
-    gap: 5px;
+    gap: 5px
   }
 
   .call {
@@ -3408,10 +3408,11 @@
     text-align: left;
     transform: rotate(60deg);
     transition: transform 1s ease;
+    height: 100%;
   }
 
   .call h4 {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0;
     line-height: 1.2;
     word-wrap: normal;
@@ -3419,58 +3420,37 @@
   }
 
   .call p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 5px;
     padding: 10px 0px;
     line-height: 1.5;
     width: 100%;
   }
 
-  .footer-links {
-    display: block;
-    height: auto;
-    width: auto;
-    text-align: center;
-    padding: 10px ;
-    background: var(--cta);
-    border-radius: 40px;
-  }
-
-  .footer-links a {
-    text-decoration: none;
-    color: var(--black);
-    font-size: 16px;
-    line-height: 2.3;
-  }
-
-  .footer-links a:hover {
-    color: var(--background)
-  }
-
   form {
     width: auto;
     background: var(--cta);
     padding: 30px;
-    margin: 10px 30px;
+    margin: 15px 15px;
     color: var(--black);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    transform: rotate(85deg);
+    transform: rotate(65deg);
     transition: transform 1s ease;
   }
 
   form h5 {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0;
     padding: 0;
   }
 
   form p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
-    padding: 5px 5px;
+    padding: 0px 0px;
   }
-
+  
   form input {
     border-radius: 50px;
     padding: 12px 10px;
@@ -3478,8 +3458,8 @@
     border: 2px solid var(--black);
     font-size: 14px;
     color: var(--cta);
-    margin-top: 10px;
-    width: 50%;
+    margin-top: 15px;
+    width: 60%;
   }
 
   .form-div {
@@ -3532,45 +3512,69 @@
   }
 
   .cont-us h5 {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 30px;
     padding: 0;
   }
 
   .cont-us span {
-    font-size: 14px;
+    font-size: 13px;
     display: inline-flex;
     gap: 12px;
     margin-top: 5px;
   }
 
   .cont-us span svg {
-    width: 6%
+    width: 5%
   }
 
   .call-carrier {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: auto;
+    height: 100%;
     gap: 10px;
+  }
+
+  .footer-links {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: var(--cta);
+    border-radius: 40px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .footer-links a:hover {
+    color: var(--background)
   }
 
   .socials {
     display: block;
     width: 30%;
+    height: 100%;
     justify-content: center;
-    transform: rotate(-80deg);
+    transform: rotate(-85deg);
     transition: transform 1s ease;
   }
 
   .social-logos {
     width: auto;
+    height: 100%;
     display: block;
     justify-content: center;
     align-items: center;
     background: var(--cta);
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 15px;
+    padding: 8px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
   }
@@ -3586,7 +3590,7 @@
   }
 
   .social-logos h1 {
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -3595,7 +3599,7 @@
 
   .social-logos span img {
     width: 100%;
-    height: 15%;
+    height: 100%;
   }
 
   .social-logos span img a {
@@ -3603,7 +3607,7 @@
   }
 
   .brand-logo {
-    width: 70%;
+    width: 60%;
     height: auto;
     margin-top: 0px
   }
@@ -3631,24 +3635,24 @@
 
   hr {
     border: 1px solid var(--cta);
-    margin: 0 30px;
-    margin-top: 20px;
+    margin: 0 15px;
+    margin-top: 15px;
   }
 
   .copyright {
     display: flex;
     justify-content: space-between;
     color: var(--text2);
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 0px;
     margin-bottom: 0;
-    padding: 0 30px;
+    padding: 0 20px;
   }
 
   .copyright a {
     text-decoration: none;
     color: var(--text2);
-    margin-top: 10px;
+    margin-top: 13px;
     font-size: 10px;
   }
   
