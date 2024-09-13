@@ -108,7 +108,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg);
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -182,7 +182,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -621,7 +621,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg);
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -695,7 +695,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -1173,7 +1173,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg);
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -1249,7 +1249,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
@@ -1732,12 +1732,13 @@
   }
 
   .hero-section {
-    background-image: url(/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg);
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
     color: var(--text2);
     padding: 40px 0;
+    height: auto;
   }
 
   .hero-section::after {
@@ -1808,7 +1809,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
