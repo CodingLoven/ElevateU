@@ -394,7 +394,7 @@
     height: 100%;
     background: var(--background);
     border-radius: 50px;
-    background-image: url(/img/background\ img.jpg);
+    background-image: url('../img/background\ img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1067,7 +1067,7 @@
     height: 100%;
     background: var(--background);
     border-radius: 50px;
-    background-image: url(/img/background\ img.jpg);
+    background-image: url('../img/background\ img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1779,7 +1779,7 @@
     height: 100%;
     background: var(--background);
     border-radius: 50px;
-    background-image: url(/img/background\ img.jpg);
+    background-image: url('../img/background\ img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2061,6 +2061,8 @@
     font-size: 12px;
   }
 }
+
+
 
 @media (max-width: 478px) {
   body {
@@ -2496,7 +2498,7 @@
     height: 100%;
     background: var(--background);
     border-radius: 50px;
-    background-image: url(/img/background\ img.jpg);
+    background-image: url('../img/background\ img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

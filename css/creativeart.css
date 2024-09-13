@@ -1696,7 +1696,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/darkened_supplies_image.jpg');
+    background-image: url('../img/darkened_supplies_image.jpg');
     background-position: center;
     background-size: cover;
     color: var(--text2);
@@ -1756,7 +1756,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url('/img/download.png');
+    background-image: url('../img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
