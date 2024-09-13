@@ -109,7 +109,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/vision\.jpeg);
+    background-image: url('/img/vision\.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -117,7 +117,7 @@
     padding: 80px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -127,7 +127,7 @@
     background: rgba(0, 0, 0, 0.5);
     mix-blend-mode: multiply;
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 80px 60px;
@@ -183,7 +183,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -622,7 +622,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/vision\.jpeg);
+    background-image: url('/img/vision\.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -630,7 +630,7 @@
     padding: 60px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -640,7 +640,7 @@
     background: rgba(0, 0, 0, 0.5);
     mix-blend-mode: multiply;
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 60px 60px;
@@ -696,7 +696,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -1175,7 +1175,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/vision\.jpeg);
+    background-image: url('/img/vision\.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1183,7 +1183,7 @@
     padding: 50px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -1193,7 +1193,7 @@
     background: rgba(0, 0, 0, 0.5);
     mix-blend-mode: multiply;
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 60px 40px;
@@ -1251,7 +1251,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
@@ -1735,7 +1735,7 @@
   }
 
   .hero-section {
-    background-image: url(/img/vision\.jpeg);
+    background-image: url('/img/vision\.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1743,7 +1743,7 @@
     padding: 40px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -1753,7 +1753,7 @@
     background: rgba(0, 0, 0, 0.5);
     mix-blend-mode: multiply;
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 30px 20px;
@@ -1811,7 +1811,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url(/img/download.png);
+    background-image: url('/img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;

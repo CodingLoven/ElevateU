@@ -108,7 +108,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -116,7 +116,7 @@
     padding: 80px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -126,7 +126,7 @@
     background: rgba(0, 0, 0, 0.5); 
     mix-blend-mode: multiply; 
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 80px 60px;
@@ -621,7 +621,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -629,7 +629,7 @@
     padding: 80px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -639,7 +639,7 @@
     background: rgba(0, 0, 0, 0.5); 
     mix-blend-mode: multiply; 
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 60px 60px;
@@ -1173,7 +1173,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -1181,7 +1181,7 @@
     padding: 60px 0;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -1191,7 +1191,7 @@
     background: rgba(0, 0, 0, 0.5); 
     mix-blend-mode: multiply; 
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 60px 40px;
@@ -1732,7 +1732,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpeg');
+    background-image: url('/img/What\ Is\ the\ Healthiest\ Diet\ in\ the\ World_.jpg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -1741,7 +1741,7 @@
     height: auto;
   }
 
-  .hero-section::after {
+  /* .hero-section::after {
     content: '';
     position: absolute;
     top: 0;
@@ -1751,7 +1751,7 @@
     background: rgba(0, 0, 0, 0.5); 
     mix-blend-mode: multiply; 
     z-index: 1;
-  }
+  } */
 
   .container1 {
     padding: 30px 20px;
