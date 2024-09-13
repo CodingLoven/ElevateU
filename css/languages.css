@@ -109,7 +109,7 @@
   }
 
   .hero-section {
-    background-image: url('../img/lang.jpeg');
+    background-image: url('../img/lang.jpg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -622,7 +622,7 @@
   }
 
   .hero-section {
-    background-image: url('../img/lang.jpeg');
+    background-image: url('../img/lang.jpg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1174,7 +1174,7 @@
   }
 
   .hero-section {
-    background-image: url('../img/lang.jpeg');
+    background-image: url('../img/lang.jpg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1732,7 +1732,7 @@
   }
 
   .hero-section {
-    background-image: url('../img/lang.jpeg');
+    background-image: url('../img/lang.jpg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
