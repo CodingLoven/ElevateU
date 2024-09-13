@@ -105,7 +105,7 @@
     display: block;
     overflow: hidden;
     background: var(--background);
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 
   .container1 {
@@ -2722,6 +2722,7 @@
 
 
 @media (max-width: 478px) {
+
   body {
     margin: 0;
     padding: 0;
@@ -2903,7 +2904,7 @@
   }
 
   .hero-content button {
-    padding: 5px 20px;
+    padding: 4px 15px;
     margin-left: 5px;
     margin-top: 10px;
     border-radius: 50px;
@@ -2916,7 +2917,7 @@
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    width: 52%
+    width: 65%
   }
 
   .hero-content button:hover {
@@ -2933,7 +2934,7 @@
   }
 
   .hero-content button:hover svg {
-    color: var(--cta)
+    color: var(--cta);
   }
 
 
