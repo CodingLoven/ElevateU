@@ -109,7 +109,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/lang.jpeg');
+    background-image: url('../img/lang.jpeg');
     mix-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -183,7 +183,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url('/img/download.png');
+    background-image: url('../img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -622,7 +622,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/lang.jpeg');
+    background-image: url('../img/lang.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -696,7 +696,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url('/img/download.png');
+    background-image: url('../img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -1174,7 +1174,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/lang.jpeg');
+    background-image: url('../img/lang.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1250,7 +1250,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url('/img/download.png');
+    background-image: url('../img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
@@ -1732,7 +1732,7 @@
   }
 
   .hero-section {
-    background-image: url('/img/lang.jpeg');
+    background-image: url('../img/lang.jpeg');
     mix-blend-mode: multiply;
     background-position: bottom;
     background-size: cover;
@@ -1808,7 +1808,7 @@
 
   .course {
     background-color: #2c69a5c5;
-    background-image: url('/img/download.png');
+    background-image: url('../img/download.png');
     padding: 20px;
     border-radius: 20px;
     width: auto;
