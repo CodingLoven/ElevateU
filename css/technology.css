@@ -152,7 +152,7 @@
     font-size: 42px;
     margin: 0;
     padding: 10px 60px;
-    line-height: 2;
+    line-height: 1;
     text-align: left;
   }
 
@@ -657,7 +657,7 @@
     font-size: 38px;
     margin: 0;
     padding: 0px 40px;
-    line-height: 2;
+    line-height: 1;
     text-align: left;
   }
 
@@ -1201,7 +1201,7 @@
     font-size: 32px;
     margin: 0;
     padding: 0px 30px;
-    line-height: 2;
+    line-height: 1;
     text-align: left;
   }
 
@@ -1748,7 +1748,7 @@
     font-size: 32px;
     margin: 0;
     padding: 0px 30px;
-    line-height: 2;
+    line-height: 1;
     text-align: center;
   }
 

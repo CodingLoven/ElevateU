@@ -2737,7 +2737,9 @@
     --black: #000;
   }
 
-   .menu-icon {
+  /* header starts here */
+
+  .menu-icon {
     display: block;
     position: absolute;
     margin: auto;
@@ -2846,6 +2848,7 @@
     margin-top: 8px;
   }
 
+  /* Header ends here */
 
   /* Section 1 starts here */
 
