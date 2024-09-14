@@ -1,0 +1,1257 @@
+@media (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+
+  /* nav section starts here */
+
+  .menu-icon {
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 60px;
+    color: var(--black);
+    overflow: hidden;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: inline-flex;
+    width: auto;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 12%;
+    height: 10%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-container ul {
+    display: inline-flex;
+    gap: 25px;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  nav button {
+    display: flex;
+    width: auto;
+    background: var(--cta);
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0px;
+  }
+
+  .nav-btn2 {
+    display: none;
+  }
+
+  /* header ends here */
+
+  /*  main section starts here */
+
+  section {
+    width: 100%;
+    background: var(--cta);
+    padding: 20px 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background);
+    margin: 80px 60px 0 60px;
+    border-radius: 20px;
+    color: var(--text2);
+  }
+
+  .form-container h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+  }
+
+  .personal-info-form, .course-category-form {
+    display: block;
+    padding: 40px;
+    height: 100%;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 8px 50px 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--black)
+  }
+
+  form input:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px
+  }
+
+  .check input {
+    margin-top: 18px;
+    padding: 10px;
+    appearance: none;
+    background: var(--text2);
+    border: 2px solid var(--text2);
+    cursor: pointer
+  }
+
+  .check input:checked {
+    background-color: var(--cta);
+    border: 2px solid var(--cta);
+  }
+
+  /* course category */
+
+  .select-container select {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  select:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 0px 8px 5px;
+    font-family: "Heebo", serif;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+  /* second form */
+
+  .form-container2 {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background);
+    border-radius: 20px;
+    margin: 0 60px;
+    color: var(--text2);
+    margin-bottom: 40px;
+  }
+
+  .form-container2 h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .full-width {
+    width: auto;
+  }
+
+  .full-width input {
+    width: 100%;
+  }
+
+  .inner {
+    display: flex;
+    width: auto;
+    gap: 0px;
+    justify-content: space-between;
+  }
+
+  .inner div {
+    width: 40%;
+  }
+
+  .inner input {
+    width: 100%;
+  }
+
+  .billing-address, .payment-details {
+    display: block;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+  }
+
+  .btn-div {
+    width: auto;
+    display: flex;
+    background: var(--cta);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-div button {
+    width: 20%;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: var(--background);
+    color: var(--text2);
+    border: 2px solid var(--background);
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px var(--black);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .btn-div button:hover {
+    background: var(--black);
+    color: var(--cta);
+    border: 2px solid var(--cta);
+    transition: all 0.6s ease-in-out;
+  }
+
+  /* footer no dey abeg, I'm tired  😂😂😂😂😭😩*/
+
+  /* If you think i should just copy it and paste it too, think about what you will do if class names in the footer correlates with the main section 😒😒 */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* header starts here */
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+  
+  .menu-icon{
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    color: var(--black);
+    overflow: hidden;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: inline-flex;
+    width: auto;
+    padding: 0px;
+    justify-content: space-around;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 12%;
+    height: 10%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-container ul {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  nav button {
+    display: flex;
+    width: auto;
+    background: var(--cta);
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0
+  }
+  
+  .nav-btn2 {
+    display: none;
+  }
+
+  /* header ends here */
+
+  /*  main section starts here */
+
+  section {
+    width: 100%;
+    background: var(--cta);
+    padding: 20px 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: var(--background);
+    margin: 80px 40px 0 40px;
+    border-radius: 20px;
+    color: var(--text2);
+  }
+
+  .form-container h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+  }
+
+  .personal-info-form, .course-category-form {
+    display: block;
+    padding: 40px;
+    height: 100%;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 8px 50px 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--black)
+  }
+
+  form input:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px
+  }
+
+  .check input {
+    margin-top: 18px;
+    padding: 10px;
+    appearance: none;
+    background: var(--text2);
+    border: 2px solid var(--text2);
+    cursor: pointer
+  }
+
+  .check input:checked {
+    background-color: var(--cta);
+    border: 2px solid var(--cta);
+  }
+
+  /* course category */
+
+  .select-container select {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  select:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 0px 8px 5px;
+    font-family: "Heebo", serif;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+  /* second form */
+
+  .form-container2 {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background);
+    border-radius: 20px;
+    margin: 0 40px;
+    color: var(--text2);
+    margin-bottom: 40px;
+    gap: 40px;
+  }
+
+  .form-container2 h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .full-width {
+    width: auto;
+  }
+
+  .full-width input {
+    width: 88%;
+  }
+
+  .inner {
+    display: flex;
+    width: auto;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .inner div {
+    width: 100%;
+  }
+
+  .inner input {
+    width: auto;
+  }
+
+  .billing-address, .payment-details {
+    display: block;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+  }
+
+  .btn-div {
+    width: auto;
+    display: flex;
+    background: var(--cta);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-div button {
+    width: 25%;
+    padding: 10px 30px;
+    font-size: 22px;
+    background: var(--background);
+    color: var(--text2);
+    border: 2px solid var(--background);
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px var(--black);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .btn-div button:hover {
+    background: var(--black);
+    color: var(--cta);
+    border: 2px solid var(--cta);
+    transition: all 0.6s ease-in-out;
+  }
+}
+
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+  /* header starts here */
+  
+  .menu-icon{
+    display: block;
+    position: absolute;
+    margin: auto;
+    right: 40px;
+    color: var(--cta);
+    font-size: 30px;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked+.menu-icon+.nav-links {
+    display: flex;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    color: var(--black);
+    overflow: visible;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+  
+  .nav-container {
+    display: flex;
+    width: auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 15%;
+    height: auto;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 40px;
+    right: 0;
+    background: var(--cta);
+    width: auto;
+    text-align: left;
+    gap: 5px;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 30px;
+    border-top-left-radius: 40px;
+  }
+
+  nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  nav ul li a:hover {
+    color: var(--cta);
+  }
+
+  .nav-btn {
+    display: none;
+    width: auto;
+    text-align: center;
+    background: var(--cta);
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .nav-btn2 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    background: var(--black);
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    color: var(--cta);
+    margin-top: 10px;
+  }
+
+  /*  main section starts here */
+
+  section {
+    width: 100%;
+    background: var(--cta);
+    padding: 20px 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container {
+    display: block;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: var(--background);
+    margin: 80px 40px 0 40px;
+    border-radius: 20px;
+    color: var(--text2);
+  }
+
+  .form-container h1 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .personal-info-form, .course-category-form {
+    display: block;
+    padding: 40px;
+    height: 100%;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  form input {
+    width: 90%;
+    padding: 8px 50px 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--black)
+  }
+
+  form input:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 30%;
+  }
+
+  .check input {
+    margin-top: 18px;
+    padding: 10px;
+    appearance: none;
+    background: var(--text2);
+    border: 2px solid var(--text2);
+    cursor: pointer;
+    width: 10px;
+  }
+
+  .check input:checked {
+    background-color: var(--cta);
+    border: 2px solid var(--cta);
+  }
+
+  /* course category */
+
+  .select-container select {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  select:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 0px 8px 5px;
+    font-family: "Heebo", serif;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+  /* second form */
+
+  .form-container2 {
+    display: block;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background);
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 30px;
+    color: var(--text2);
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+
+  .form-container2 h1 {
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .full-width {
+    width: auto;
+  }
+
+  .full-width input {
+    width: 90%;
+  }
+
+  .full-width label {
+    margin-bottom: 10px;
+  }
+
+  .inner {
+    display: block;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .inner div {
+    width: 90%;
+  }
+
+  .inner input {
+    width: 100%;
+  }
+
+  .inner label {
+    margin-bottom: 10px; 
+  }
+
+  .billing-address, .payment-details {
+    display: block;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+  }
+
+  .btn-div {
+    width: auto;
+    display: flex;
+    background: var(--cta);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-div button {
+    width: 30%;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: var(--background);
+    color: var(--text2);
+    border: 2px solid var(--background);
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px var(--black);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .btn-div button:hover {
+    background: var(--black);
+    color: var(--cta);
+    border: 2px solid var(--cta);
+    transition: all 0.6s ease-in-out;
+  }
+}
+
+
+@media (max-width: 478px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: "Heebo", serif;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --background: #003366;
+    --text2: #FFFFFF;
+    --cta: #C9F31D;
+    --black: #000;
+  }
+
+  /* header starts here */
+  
+  .menu-icon {
+    display: block;
+    position: absolute;
+    margin: auto;
+    right: 20px;
+    color: var(--cta);
+    font-size: 22px;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked+.menu-icon+.nav-links {
+    display: flex;
+  }
+
+  header {
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    color: var(--black);
+    overflow: visible;
+    background: var(--background);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 3px 5px var(--black);
+  }
+
+  .nav-container {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 22%;
+    height: auto;
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 25px;
+    right: 0;
+    background: var(--cta);
+    width: auto;
+    text-align: left;
+    gap: 5px;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 30px;
+    border-top-left-radius: 40px;
+  }
+
+  nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  nav ul li a:hover {
+    color: var(--background);
+  }
+
+  .nav-btn {
+    display: none;
+    width: auto;
+    text-align: center;
+    background: var(--cta);
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .nav-btn2 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    background: var(--black);
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 2px solid var(--cta);
+    cursor: pointer;
+    color: var(--cta);
+    margin-top: 8px;
+  }
+
+  /*  main section starts here */
+
+  section {
+    width: 100%;
+    background: var(--cta);
+    padding: 20px 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container {
+    display: block;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background: var(--background);
+    margin: 40px 15px 0 15px;
+    border-radius: 20px;
+    color: var(--text2);
+  }
+
+  .form-container h1 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .personal-info-form, .course-category-form {
+    display: block;
+    padding: 20px;
+    height: 100%;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  form input {
+    width: 85%;
+    padding: 8px 50px 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--black)
+  }
+
+  form input:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 42%;
+  }
+
+  .check input {
+    margin-top: 18px;
+    padding: 10px;
+    appearance: none;
+    background: var(--text2);
+    border: 2px solid var(--text2);
+    cursor: pointer;
+    width: 5px;
+  }
+
+  .check input:checked {
+    background-color: var(--cta);
+    border: 2px solid var(--cta);
+  }
+
+  /* course category */
+
+  .select-container select {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px 10px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  select:focus {
+    outline: none;
+    border: 2px solid var(--cta);
+  }
+
+  textarea {
+    width: 98%;
+    height: 100%;
+    margin-top: 20px;
+    border: 2px solid var(--text2);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 0px 8px 5px;
+    font-family: "Heebo", serif;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+  /* second form */
+
+  .form-container2 {
+    display: block;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background);
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 30px;
+    color: var(--text2);
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+
+  .form-container2 h1 {
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .full-width {
+    width: auto;
+  }
+
+  .full-width input {
+    width: 85%;
+  }
+
+  .full-width label {
+    margin-bottom: 10px;
+  }
+
+  .inner {
+    display: block;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .inner div {
+    width: 85%;
+  }
+
+  .inner input {
+    width: 100%;
+  }
+
+  .inner label {
+    margin-bottom: 10px; 
+  }
+
+  .billing-address, .payment-details {
+    display: block;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+  }
+
+  .btn-div {
+    width: auto;
+    display: flex;
+    background: var(--cta);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .btn-div button {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: var(--background);
+    color: var(--text2);
+    border: 2px solid var(--background);
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px var(--black);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .btn-div button:hover {
+    background: var(--black);
+    color: var(--cta);
+    border: 2px solid var(--cta);
+    transition: all 0.6s ease-in-out;
+  }
+}

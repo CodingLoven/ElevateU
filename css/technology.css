@@ -1700,7 +1700,7 @@
     height: 100%;
     background: var(--background);
     color: var(--text2);
-    background-image: url('/..img/download.png');
+    background-image: url('../img/download.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

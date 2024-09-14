@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/enrollment.css">
+    <title>Enrollment</title>
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+        <div class="nav-container">
+    
+          <div class="logo">
+            <a href="index.html"><img src="img/top logo.png" alt=""></a>
+          </div>
+    
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon"> &#9776;</label>
+    
+          <ul class="nav-links">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="courses.html">Courses</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Success Stories</a>
+            </li>
+            <li>
+              <a href="about.html">About ElevateU</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+            <li><button class="nav-btn2">Get Started</button></li>
+          </ul>
+    
+          <button class="nav-btn">Get Started</button>
+    
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- <section class="section2">
+        <form action="get" id="forms2">
+          <div class="form-wrap">
+            <div class="flex"
+              
+              <div class="bill">
+                
+                </div>
+
+              </div>
+            </div>
+            <button>Make Payment</button>
+          </div>
+        </form>
+      </section>  -->
+
+      <section>
+        <div class="form-container">
+      
+          <div class="personal-info-form">
+            <h1>Personal-information</h1>
+
+            <form action="get">
+              <label for="Name">Name</label>
+              <input type="text" id="Name" name="name" required>
+              
+              <label for="email">Email Address</label>
+              <input type="text" id="email" name="email" required> 
+              
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" name="phone" required>
+              
+              <div class="check">
+                <label for="male">Male</label>
+                <input type="checkbox" id="male" name="male">
+                
+                <label for="female"> Female</label>
+                <input type="checkbox" id="female" name="male">
+              </div>
+              
+            </form>
+          </div>
+
+          <div class="course-category-form">
+            <h1>Course Category</h1>
+
+            <div class="select-container">
+              <select name="courses" id="coursees">
+                <option value="course1" id="opt">Technology</option>
+                <option value="course2">Business</option>
+                <option value="course3">Creative Arts</option>
+                <option value="course4">Health and Wellness</option>
+                <option value="course5">Financial Investment</option>
+                <option value="course6">Entreprenuership</option>
+                <option value="course7">Language</option>
+                <option value="course8">Education & teaching</option>
+              </select>
+              
+              <Select name="courses" id="coursees">
+                <option value="tech-course1">Introduction to Software Development</option>
+                <option value="tech-course2">Advanced Software Engineering Practices</option>
+                <option value="tech-course3">Agile Development with Scrum and Kanban</option>
+                <option value="tech-course4">Object-Oriented Programming (OOP) Fundamentals</option>
+                <option value="tech-course5">Software Testing and Debugging</option>
+                <option value="tech-course6">Software Development Lifecycle (SDLC) Best Practices</option>
+                <option value="bus-course1">Business Analytics for Decision-Making</option>
+                <option value="bus-course2">Organizational Leadership and Change</option>
+                <option value="bus-course3">Digital Marketing Strategy</option>
+                <option value="bus-course4">Financial Management Essentials</option>
+                <option value="bus-course5">Human Resource Management Fundamentals</option>
+                <option value="bus-course6">Project Management Professional (PMP) Certification Prep</option>
+                <option value="art-course1">Graphic Design Principles and Techniques</option>
+                <option value="art-course2">Introduction to Digital Photography</option>
+                <option value="art-course3">Creative Writing: Fiction and Non-Fiction</option>
+                <option value="art-course4">Film and Video Production Basics</option>
+                <option value="art-course5">Visual Storytelling and Concept Development</option>
+                <option value="art-course6">Advanced Photoshop Techniques</option>
+                <option value="health-course1">Introduction to Nutrition Science</option>
+                <option value="health-course2">Mental Health Awareness and Support</option>
+                <option value="health-course3">Exercise Physiology and Wellness</option>
+                <option value="health-course4">Yoga for Physical and Mental Wellness</option>
+                <option value="health-course5">Holistic Health Practices</option>
+                <option value="health-course6">Personal Fitness Trainer Certification Prep</option>
+                <option value="health-course1">Introduction to Nutrition Science</option>
+                <option value="health-course2">Mental Health Awareness and Support</option>
+                <option value="health-course3">Exercise Physiology and Wellness</option>
+                <option value="health-course4">Yoga for Physical and Mental Wellness</option>
+                <option value="health-course5">Holistic Health Practices</option>
+                <option value="health-course6">Personal Fitness Trainer Certification Prep</option>
+                <option value="finance-course1">Investment Strategies for Beginners</option>
+                <option value="finance-course2">Portfolio Management and Risk Assessment</option>
+                <option value="finance-course3">Stock Market and Equity Trading Fundamentals</option>
+                <option value="finance-course4">Cryptocurrency and Blockchain Investment</option>
+                <option value="finance-course5">Real Estate Investment Essentials</option>
+                <option value="finance-course6">Financial Planning for Retirement</option>
+                <option value="entre-course1">Startup and Business Planning</option>
+                <option value="entre-course2">Funding and Capital Raising for Startups</option>
+                <option value="entre-course3">Entrepreneurial Leadership and Innovation</option>
+                <option value="entre-course4">E-Commerce and Online Business Strategies</option>
+                <option value="entre-course5">Building a Brand from Scratch</option>
+                <option value="entre-course6">Managing Growth and Scaling Your Business</option>
+                <option value="lang-course1">Introduction to Spanish Language</option>
+                <option value="lang-course2">Business English for Professionals</option>
+                <option value="lang-course3">French Language Basics for Travel</option>
+                <option value="lang-course4">Intermediate Mandarin Chinese</option>
+                <option value="lang-course5">English Grammar and Writing Skills</option>
+                <option value="lang-course6">German for Beginners</option>
+                <option value="edu-course1">Teaching Strategies for the Modern Classroom</option>
+                <option value="edu-course2">Classroom Management Techniques</option>
+                <option value="edu-course3">Curriculum Design and Assessment</option>
+                <option value="edu-course4">Teaching English as a Foreign Language (TEFL)</option>
+                <option value="edu-course5">Introduction to Educational Technology</option>
+                <option value="edu-course6">Special Education Fundamentals</option>
+              
+              </Select>
+
+              <textarea name="reason" id="reason" rows="4" cols="50" placeholder="Why this course?"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="form-container2">
+
+          <div class="payment-details">
+            <h1>
+              Payment Details
+            </h1>
+
+            <form action="get">
+
+              <label for="credit-card"> Card Number</label>
+              <input type="text" id="credit-card" name="credit-card" required>
+              
+              <label for="exp-date"> Exp Date</label>
+              <input type="text" id="exp-date" name="exp-date" placeholder="02/20" required> 
+              
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="XXX" required>
+            </form>
+          </div>
+
+          <div class="billing-address">
+            <h1>
+              Billing Address
+            </h1>
+
+            <form action="get">
+
+              <div class="full-width">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              
+              <div class="full-width">
+                <label for="address">Street Address</label>
+                <input type="text" name="address" id="address" required>
+              </div>
+              
+              
+              <div class="inner">
+                <div>
+                  <label for="city">City</label>
+                  <input type="text" name="city" id="city" required>
+                </div>
+              
+                <div>
+                  <label for="state">State</label>
+                  <input type="text" name="state" id="state">
+                </div>
+              </div>
+              
+              <div class="inner">
+                <div>
+                  <label for="country">Country</label>
+                  <input type="text" name="Country" id="country" required>
+                </div>
+                
+                <div>
+                  <label for="zip">ZIP</label>
+                  <input type="text" name="zip" id="zip">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="btn-div">
+          <button>Make Payment</button>
+        </div>
+      </section>
+      
+
+    </main>
+
+    <!-- <footer>
+      <div class="footer-container">
+    
+        <div class="call-carrier">
+    
+          <div class="call">
+            <h4>
+              Unlock Your Potential
+            </h4>
+            <p>
+              Transform your ambitions into reality with ElevateU. If you're seeking to advance in your career, acquire new
+              skills, or explore personal passions, our expertly curated courses are here to guide you every step of the
+              way. Join a community of learners committed to excellence and innovation.
+            </p>
+    
+            <div class="brand-logo">
+              <a href="index.html"><img src="img/footer logo.png" alt=""></a>
+            </div>
+    
+          </div>
+    
+          <div class="socials">
+            <div class="footer-links">
+              <a href="courses.html">Explore Courses</a><br>
+              <a href="">Success Stories</a><br>
+              <a href="">About Us</a><br>
+              <a href="">Contact Us</a><br>
+              <a href="">Blog</a><br>
+              <a href="">FAQs</a>
+            </div>
+    
+            <div class="social-logos">
+              <h1>Connect With Us</h1>
+              <span>
+                <a href=""><img src="img/facebook.png" alt=""></a>
+    
+                <a href=""><img src="img/instagram (1).png" alt=""></a>
+    
+                <a href=""><img src="img/linkedin (1).png" alt=""></a>
+    
+                <a href=""><img src="img/twitter (1).png" alt=""></a>
+    
+              </span>
+            </div>
+    
+          </div>
+        </div>
+    
+        <form action="get">
+    
+          <div>
+            <h5>
+              Stay Connected
+            </h5>
+            <p>
+              Sign up for our newsletter to receive the latest updates, course offerings, and exclusive content directly in
+              your
+              inbox.
+            </p>
+    
+            <div class="form-div">
+              <input type="text" id="email" name="Email" placeholder="Enter your Email">
+              <button>SUBMIT</button>
+            </div>
+    
+          </div>
+    
+          <div class="cont-us">
+            <h5>
+              Contact us
+            </h5>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              support@elevateU.com
+            </span>
+    
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+              </svg>
+              +1 234 567 890
+            </span>
+    
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+              </svg>
+              1234 Learning Lane, Knowledge City, EC 56789
+            </span>
+    
+          </div>
+        </form>
+    
+    
+      </div>
+    
+      <hr>
+      <span class="copyright">
+        <p>&copy; 2024 ElevateU. All rights reserved.</p>
+        <a href="#">Designed and Developed By Alabi Israel A.</a>
+      </span>
+    </footer> -->
+
+  </body>
+</html>
