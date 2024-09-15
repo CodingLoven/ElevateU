@@ -261,10 +261,16 @@
   .btn-div {
     width: auto;
     display: flex;
+    flex-direction: column;
     background: var(--cta);
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+
+  .btn-div a {
+    color: var(--black);
+    font-size: 14px;
   }
 
   .btn-div button {
@@ -560,10 +566,16 @@
   .btn-div {
     width: auto;
     display: flex;
+    flex-direction: column;
     background: var(--cta);
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+
+  .btn-div a {
+    color: var(--black);
+    font-size: 14px;
   }
 
   .btn-div button {
@@ -895,10 +907,16 @@
   .btn-div {
     width: auto;
     display: flex;
+    flex-direction: column;
     background: var(--cta);
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+
+  .btn-div a {
+    color: var(--black);
+    font-size: 14px;
   }
 
   .btn-div button {
@@ -1067,7 +1085,7 @@
     width: auto;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 30px 10px;
     background: var(--background);
     margin: 40px 15px 0 15px;
     border-radius: 20px;
@@ -1093,7 +1111,7 @@
   }
 
   form input {
-    width: 85%;
+    width: 82%;
     padding: 8px 50px 8px 10px;
     border: 2px solid var(--text2);
     border-radius: 5px;
@@ -1112,7 +1130,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    width: 42%;
+    width: 50%;
   }
 
   .check input {
@@ -1174,7 +1192,7 @@
     background: var(--background);
     border-radius: 20px;
     margin: 0 15px;
-    padding: 30px;
+    padding: 30px 15px;
     color: var(--text2);
     margin-bottom: 40px;
     gap: 20px;
@@ -1192,7 +1210,7 @@
   }
 
   .full-width input {
-    width: 85%;
+    width: 82%;
   }
 
   .full-width label {
@@ -1207,7 +1225,7 @@
   }
 
   .inner div {
-    width: 85%;
+    width: 82%;
   }
 
   .inner input {
@@ -1229,10 +1247,16 @@
   .btn-div {
     width: auto;
     display: flex;
+    flex-direction: column;
     background: var(--cta);
     align-items: center;
     justify-content: center;
     margin: 0;
+  }
+
+  .btn-div a {
+    color: var(--black);
+    font-size: 14px;
   }
 
   .btn-div button {
