@@ -506,7 +506,7 @@
   }
 
   .copyright a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--text2);
     margin-top: 10px;
     font-size: 12px;
@@ -1024,7 +1024,7 @@
   }
 
   .copyright a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--text2);
     margin-top: 10px;
     font-size: 12px;
@@ -1585,7 +1585,7 @@
   }
 
   .copyright a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--text2);
     margin-top: 15px;
     font-size: 12px;
@@ -2147,7 +2147,7 @@
   }
 
   .copyright a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--text2);
     margin-top: 13px;
     font-size: 10px;
